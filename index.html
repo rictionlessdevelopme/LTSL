@@ -16,19 +16,19 @@
   ga('send', 'pageview');
 
 </script>
-    <title>Bustabit Script Simulator</title>
+    <title>Bustabit Simulator Lite - Chart Analytics Soon To Come.</title>
 </head>
 
 <body>
     <div class="form-horizontal">
-        <legend>&nbsp;BustaBit Script Simulator <sup style="color:#ff0000;">BETA</sup> <a href="https://discord.gg/sFtvuYX" class="btn btn-info discordBtn"><span class="glyphicons glyphicons-cloud unlift"></span>&nbsp;&nbsp;Contact me on Discord</a> <a href=":)" class="btn btn-warning btcBtn"><span class="glyphicons glyphicons-stats"></span>&nbsp;Chart Tools-Stay Tuned</a><span class="themeSwitch" id="switchTheme">Go black</span><a href="disclaimer.html" target="_blank" class="checkboxy btcBtn disclaimer"><small>Disclaimer</small></a></legend>
+        <legend>&nbsp;BustaBit Script Simulator <sup style="color:#ff0000;">BETA</sup> <a href="https://discord.gg/sFtvuYX" class="btn btn-info discordBtn"><span class="glyphicons glyphicons-cloud unlift"></span>&nbsp;&nbsp;Contact me on Discord</a> <a href=":)" class="btn btn-warning btcBtn"><span class="glyphicons glyphicons-stats"></span>&nbsp;Chart Tools-Stay Tuned</a><span class="themeSwitch" id="switchTheme">Black</span><a href="disclaimer.html" target="_blank" class="checkboxy btcBtn disclaimer"><small>Disclaimer</small></a></legend>
         <fieldset>
             <!-- Text input-->
             <div class="form-group">
-                <label class="col-md-9 control-label">Starting Balance</label>
+                <label class="col-md-9 control-label">StartBR</label>
                 <div class="col-md-9 inputGroupContainer">
                     <div class="input-group"> <span class="input-group-addon"><i class="glyphicons glyphicons-bitcoin"></i></span>
-                        <input id="startBalInput" placeholder="Starting Balance" class="form-control" type="text"> </div>
+                        <input id="startBalInput" placeholder="StartBR" class="form-control" type="text"> </div>
                 </div>
             </div>
             <!-- Text input-->
@@ -36,29 +36,29 @@
                 <label class="col-md-9 control-label">Game Hash</label>
                 <div class="col-md-9 inputGroupContainer">
                     <div class="input-group"> <span class="input-group-addon"><i class="glyphicons glyphicons-keys"></i></span>
-                        <input id="endHash" placeholder="Game Hash" class="form-control" type="text" value="f8fcb2cf4901a43d6ad179dc82cc9505ba252a2366bcc77dd9b100139b9e9dd8"> </div>
+                        <input id="endHash" placeholder="Hash" class="form-control" type="text" value="f8fcb2cf4901a43d6ad179dc82cc9505ba252a2366bcc77dd9b100139b9e9dd8"> </div>
                 </div>
             </div>
             <!-- Text input-->
             <div class="form-group">
-                <label class="col-md-9 control-label">Amount of games</label>
+                <label class="col-md-9 control-label"># Games</label>
                 <div class="col-md-9 inputGroupContainer">
                     <div class="input-group"> <span class="input-group-addon"><i class="glyphicons glyphicons-hash"></i></span>
-                        <input id="backAmount" placeholder="Amount of games to calculate back" class="form-control" type="text"> </div>
+                        <input id="backAmount" placeholder="# Games" class="form-control" type="text"> </div>
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-md-9 control-label">Script</label>
                 <div class="col-md-9 inputGroupContainer">
                     <div class="input-group"> <span class="input-group-addon"><i class="glyphicons glyphicons-edit"></i></span>
-                        <textarea id="scriptText" class="form-control" placeholder="Paste your script here"></textarea>
+                        <textarea id="scriptText" class="form-control" placeholder="Script"></textarea>
                     </div>
                 </div>
             </div>
             <!-- Button -->
             <div class="form-group">
                 <div class="col-md-3 startCalc">
-                    <button id="startCalcBtn" class="btn btn-primary">(Re)Start Calculation <span class="glyphicons glyphicons-calculator unlift"></span></button>
+                    <button id="startCalcBtn" class="btn btn-primary">(Re)Go<span class="glyphicons glyphicons-calculator unlift"></span></button>
                 </div>
                 <div class="col-md-9 unlift" id="chartCheck">
                     <label class="checkboxy">
@@ -74,27 +74,27 @@
                 <tbody>
                     <tr>
                         <th># Games played</th>
-                        <td id="numGames"></td>
+                        <td id="#Games"></td>
                     </tr>
                     <tr>
                         <th>Starting Balance</th>
-                        <td id="startBal"></td>
+                        <td id="StartBR"></td>
                     </tr>
                     <tr>
                         <th>Lowest Balance</th>
-                        <td id="lowestBal"></td>
+                        <td id="LowestBR"></td>
                     </tr>
                     <tr>
                         <th>Lowest Net</th>
-                        <td id="lowestNet"></td>
+                        <td id="LowestNet"></td>
                     </tr>
                     <tr>
                         <th>Balance</th>
-                        <td id="balance"></td>
+                        <td id="EndBR"></td>
                     </tr>
                     <tr>
                         <th>Profit</th>
-                        <td id="netProfit"></td>
+                        <td id="Profit"></td>
                     </tr>
                 </tbody>
             </table>
