@@ -58,8 +58,8 @@ fieldset {
 
 .discordBtn {
     float: right;
-    background-color: #7289DA;
-    border-color: #7289DA;
+    background-color: #08ba6a;
+    border-color: #08ba6a;
     margin-top: 2px;
     margin-right: 5px;
 }
@@ -84,7 +84,7 @@ input.autoInput {
     border: 0;
     outline: 0;
     background: transparent;
-    border-bottom: 1px solid #BDBDBD;
+    border-bottom: 1px solid #08ba6a;
     width: 80px;
     text-align: center;
 }
@@ -95,12 +95,12 @@ input.autoInput {
 }
 
 disclaimer {
-    color: #c87629
+    color: #08ba6a;
 }
 
 .themeSwitch {
     float: right;
-    color: #e58929;
+    color: #08ba6a;
     border: 2px solid grey;
     padding: 2px;
     margin-top: 4px;
@@ -114,13 +114,13 @@ disclaimer {
 }
 
 legend {
-    color: "#000";
+    color: "#180101";
 }
 
 label {
-    color: "#000";
+    color: "#180101";
 }
 
 th {
-    color: "#000";
+    color: "#180101";
 }
